@@ -1,0 +1,189 @@
+.menu
+    position: relative
+    margin-top: 120px
+    &_title
+        margin-bottom: 49px
+        font-weight: 800
+        font-size: 69.17px
+        text-align: center
+        color: #FFFFFF
+
+    &_tabs
+        display: flex
+        justify-content: space-between
+        list-style-type: none
+        margin-bottom: 111px
+    &_tab
+        width: 229px
+        height: 62px
+        border-radius: 100px
+        font-weight: 500
+        font-size: 22px
+        text-align: center
+        line-height: 62px
+        background-color: #210A01
+        color: #FFFFFF
+        cursor: pointer
+        transition: 0.5s all
+        &:hover
+            background: linear-gradient(261.69deg, #FF5924 12.12%, #FFA229 86.72%)
+            transition: 0.5s all
+        &_active
+            background: linear-gradient(261.69deg, #FF5924 12.12%, #FFA229 86.72%)
+
+    &_content
+        display: flex
+        justify-content: space-between
+        margin-bottom: 54px
+    &_item
+        width: 240px
+        height: 459px
+        padding: 0 27px 0 27px
+        border-radius: 29.53px
+        background-color: #210A01
+
+        &-img
+            position: absolute
+            top: 220px
+            transform: translateX(15px)
+
+        &-name
+            margin-bottom: 20px
+            padding-top: 100px
+            font-weight: 500
+            font-size: 25.1px
+            color: #FFFFFF
+            text-align: center
+        &-descr
+            margin-bottom: 20px
+            font-weight: 400
+            font-size: 14.32px
+            color: $main-color
+            text-align: center
+
+        &-circles
+            display: flex
+            justify-content: space-around
+            margin-bottom: 20px
+        &-circle
+            width: 40px
+            height: 40px
+            border-radius: 50px
+            border: 2px solid $main-color
+            font-weight: 400
+            font-size: 14.32px
+            color: $main-color
+            cursor: pointer
+            p
+                padding-top: 11px
+                padding-left: 12px
+        .active
+            width: 45px
+            height: 45px
+            background: linear-gradient(261.69deg, #FF5924 12.12%, #FFA229 86.72%)
+            border: none
+            color: #FFFFFF
+            p
+                padding-top: 14px
+                padding-left: 14px
+
+        &-ingri
+            position: relative
+            width: 194px
+            height: 39px
+            margin-left: 21px
+            margin-bottom: 24px
+            border-radius: 84.37px
+            background: linear-gradient(261.69deg, #FF5924 12.12%, #FFA229 86.72%)
+            a
+                display: inline-block
+                padding-top: 7px
+                padding-left: 50px
+                font-weight: 400
+                font-size: 16.08px
+                text-decoration: none
+                color: transparent
+                background-clip: text
+                background-image: linear-gradient(261.69deg, #FF6432 12.12%, #FFA228 86.72%)
+        &-dark
+            position: absolute
+            width: 188.4px
+            height: 35px
+            top: 2px
+            left: 3px
+            border-radius: 84.37px
+            background-color: #1D0800
+
+        &-number
+            display: flex
+            margin-bottom: 20px
+        &-price
+            margin-left: 20px
+            font-weight: 500
+            font-size: 25.46px
+            color: #FFFFFF
+        &-reduce
+            width: 23px
+            height: 23px
+            margin-top: 5px
+            margin-left: 46px
+            border: 2px solid $main-color
+            border-radius: 50%
+            font-weight: 400
+            font-size: 17.66px
+            color: $main-color
+            cursor: pointer
+        .minus
+            padding-left: 9.5px
+        &-quanity
+            margin-top: 5px
+            margin-left: 13px
+            font-weight: 400
+            font-size: 22.82px
+            color: $main-color
+        &-add
+            width: 27px
+            height: 27px
+            margin-top: 5px
+            margin-left: 13px
+            background: linear-gradient(261.69deg, #FF5924 12.12%, #FFA229 86.72%)
+            border-radius: 50%
+            font-weight: 400
+            font-size: 17.66px
+            color: #FFFFFF
+            cursor: pointer
+        .plus
+            padding-top: 2.5px
+            padding-left: 8.5px
+
+        &-btn
+            width: 194px
+            height: 45px
+            margin-left: 25px
+            border-radius: 84px
+            background: linear-gradient(261.69deg, #FF5924 12.12%, #FFA229 86.72%)
+            a
+                display: inline-block
+                padding-top: 12px
+                padding-left: 55px
+                font-weight: 500
+                font-size: 17.45px
+                text-decoration: none
+                color: #FFFFFF
+    
+    &_popular
+        position: relative
+        margin-bottom: 113px
+        &-text
+            position: absolute
+            top: 125px
+            left: 379px
+            font-weight: 500
+            font-size: 43.86px
+            color: #FFFFFF
+            text-transform: uppercase
+    
+    .second
+        margin-bottom: 78px
+    .xtwo
+        top: 1125px
