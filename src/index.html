@@ -24,7 +24,13 @@
                         <li class="list_item animate__animated animate__fadeInDown wow" data-wow-duration="1s" data-wow-delay="0.9s"><a href="#" class="list_link">Menu</a></li>
                         <li class="list_item animate__animated animate__fadeInDown wow" data-wow-duration="1s" data-wow-delay="1.3s"><a href="#" class="list_link">Events</a></li>
                         <li class="list_item animate__animated animate__fadeInDown wow" data-wow-duration="1s" data-wow-delay="1.7s"><a href="#" class="list_link">About us</a></li>
+                        <li class="log list_item animate__animated animate__fadeInDown wow" data-wow-duration="1s" data-wow-delay="2.1s"><a href="#" class="list_link">Log in</a></li>
                     </ul>
+                    <div class="hamburger animate__animated animate__fadeInRight wow" data-wow-duration="1s" data-wow-delay="1.5s">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
                 </nav>
 
                 <div class="btn animate__animated animate__fadeInRight wow" data-wow-duration="1s" data-wow-delay="0.5s">
@@ -38,9 +44,18 @@
     <main>
         <section class="promo">
             <div class="container">
-                <h1 class="promo_title animate__animated animate__fadeInLeft wow" data-wow-duration="1s" data-wow-delay="0.5s">The Fastest Pizza <span class="thunder"><img src="icons/promo/Thunder.svg" alt="Thunder"></span> Delivery</h1>
+                <h1 class="promo_title animate__animated animate__fadeInLeft wow" data-wow-duration="1s" data-wow-delay="0.5s">The Fastest Pizza <span><img src="icons/promo/Thunder.svg" alt="Thunder" class="thunder"></span> Delivery</h1>
 
                 <div class="promo_subtitle animate__animated animate__fadeInLeft wow" data-wow-duration="1s" data-wow-delay="0.5s">We will deliver juicy pizza for your family in 30 minutes, if the courier is late - <span>pizza is free</span>!</div>
+
+                <div id="order" class="media promo_btns animate__animated animate__fadeInLeft wow" data-wow-duration="1s" data-wow-delay="0.5s">
+                    <div class="promo_btns-first"><a href="#" class="promo_btns-text">To order</a></div>
+                    <div class="promo_btns-second"><a href="#">
+                        <div class="promo_btns-dark">
+                            <div class="promo_btns-textyel">Pizza-Menu</div>
+                        </div>
+                     </a></div>
+                </div>
                     
                 <div class="promo_cooking animate__animated animate__fadeInLeft wow" data-wow-duration="1s" data-wow-delay="0.5s">Cooking process:</div>
                 <div class="promo_video animate__animated animate__fadeInUp wow" data-wow-duration="1s" data-wow-delay="1s">
@@ -52,7 +67,7 @@
                     <img src="img/promo/Video.jpg" alt="Video is not working, lol" class="promo_video-imglol">
                 </div>
 
-                <div id="order" class="promo_btns animate__animated animate__fadeInLeft wow" data-wow-duration="1s" data-wow-delay="0.5s">
+                <div id="order" class="first promo_btns animate__animated animate__fadeInLeft wow" data-wow-duration="1s" data-wow-delay="0.5s">
                     <div class="promo_btns-first"><a href="#" class="promo_btns-text">To order</a></div>
                     <div class="promo_btns-second"><a href="#">
                         <div class="promo_btns-dark">
@@ -76,10 +91,10 @@
 
                 <ul class="menu_tabs">
                     <li class="menu_tab menu_tab_active animate__animated animate__fadeInLeft wow" data-wow-duration="1s" data-wow-delay="2s"><div>Show All</div></li>
-                    <li class="menu_tab animate__animated animate__fadeInLeft wow" data-wow-duration="1s" data-wow-delay="1.5s"><div>Meat</div></li>
-                    <li class="menu_tab animate__animated animate__fadeInUp wow" data-wow-duration="1s" data-wow-delay="1s"><div>Vegetarian</div></li>
-                    <li class="menu_tab animate__animated animate__fadeInRight wow" data-wow-duration="1s" data-wow-delay="1.5s"><div>Sea products</div></li>
-                    <li class="menu_tab animate__animated animate__fadeInRight wow" data-wow-duration="1s" data-wow-delay="2s"><div>Mushroom</div></li>
+                    <li class="menu_tab meat animate__animated animate__fadeInLeft wow" data-wow-duration="1s" data-wow-delay="1.5s"><div>Meat</div></li>
+                    <li class="menu_tab vegetarian animate__animated animate__fadeInUp wow" data-wow-duration="1s" data-wow-delay="1s"><div>Vegetarian</div></li>
+                    <li class="menu_tab downward animate__animated animate__fadeInRight wow" data-wow-duration="1s" data-wow-delay="1.5s"><div>Sea products</div></li>
+                    <li class="menu_tab downward animate__animated animate__fadeInRight wow" data-wow-duration="1s" data-wow-delay="2s"><div>Mushroom</div></li>
                 </ul>
 
                 <div class="menu_content">
@@ -135,8 +150,8 @@
                         <div class="menu_item-btn"><a href="#">Order Now</a></div>
                     </div>
 
-                    <div class="menu_item animate__animated animate__fadeInUp wow" data-wow-duration="1s" data-wow-delay="1.5s">
-                        <img src="img/pizzas/Meat.png" alt="Meat" class="menu_item-img">
+                    <div class="menu_item bottom animate__animated animate__fadeInUp wow" data-wow-duration="1s" data-wow-delay="1.5s">
+                        <img src="img/pizzas/Meat.png" alt="Meat" class="menu_item-img downone">
 
                         <div class="menu_item-name">Meat</div>
                         <div class="menu_item-descr">Filling: onion, potato, tomato, mushrooms, cheese, olives, meat...</div>
@@ -161,8 +176,8 @@
                         <div class="menu_item-btn"><a href="#">Order Now</a></div>
                     </div>
 
-                    <div class="menu_item animate__animated animate__fadeInUp wow" data-wow-duration="1s" data-wow-delay="2s">
-                        <img src="img/pizzas/Cheese.png" alt="Cheese" class="menu_item-img">
+                    <div class="menu_item bottomtwo animate__animated animate__fadeInUp wow" data-wow-duration="1s" data-wow-delay="2s">
+                        <img src="img/pizzas/Cheese.png" alt="Cheese" class="menu_item-img down">
 
                         <div class="menu_item-name">Cheese</div>
                         <div class="menu_item-descr">Filling: onion, potato, tomato, mushrooms, cheese, olives, meat...</div>
@@ -246,8 +261,8 @@
                         <div class="menu_item-btn"><a href="#">Order Now</a></div>
                     </div>
 
-                    <div class="menu_item animate__animated animate__fadeInUp wow" data-wow-duration="1s" data-wow-delay="1.5s">
-                        <img src="img/pizzas/Tomato.png" alt="Tomato" class="menu_item-img xtwo">
+                    <div class="menu_item bottomthree animate__animated animate__fadeInUp wow" data-wow-duration="1s" data-wow-delay="1.5s">
+                        <img src="img/pizzas/Tomato.png" alt="Tomato" class="first menu_item-img xtwo">
 
                         <div class="menu_item-name">Tomato</div>
                         <div class="menu_item-descr">Filling: onion, potato, tomato, mushrooms, cheese, olives, meat...</div>
@@ -272,8 +287,8 @@
                         <div class="menu_item-btn"><a href="#">Order Now</a></div>
                     </div>
 
-                    <div class="menu_item animate__animated animate__fadeInUp wow" data-wow-duration="1s" data-wow-delay="2s">
-                        <img src="img/pizzas/Italianx2.png" alt="Italian x2" class="menu_item-img xtwo">
+                    <div class="bottomfour menu_item bottom animate__animated animate__fadeInUp wow" data-wow-duration="1s" data-wow-delay="2s">
+                        <img src="img/pizzas/Italianx2.png" alt="Italian x2" class="downtwo menu_item-img xtwo">
 
                         <div class="menu_item-name">Italian x2</div>
                         <div class="menu_item-descr">Filling: onion, potato, tomato, mushrooms, cheese, olives, meat...</div>
@@ -303,43 +318,47 @@
 
         <section id="events" class="events">
             <div class="container">
+                <div class="events_main animate__animated animate__fadeInUp wow" data-wow-duration="1s" data-wow-delay="0.5s">
+                    <div class="events_main-title">Events</div>
+                    <div class="events_main-subtext">There are regular events in our pizzeria that will allow you to eat delicious food for a lower price!</div>
+                </div>
                 <div class="events_wrapper">
                     <div class="events_item animate__animated animate__fadeInUp wow" data-wow-duration="1s" data-wow-delay="0.5s">
-                        <img src="img/events/Cooking.png" alt="cooking" class="events_item-img">
+                        <img src="img/events/Cooking.png" alt="cooking" class="events_item-img one">
                         <div class="events_item-text">How we cooking</div>
                         <div class="events_item-btn"><a href="#">More</a></div>
                     </div>
                     <div class="events_item animate__animated animate__fadeInUp wow" data-wow-duration="1s" data-wow-delay="0.5s">
-                        <img src="img/events/Blog.png" alt="blog" class="events_item-img">
+                        <img src="img/events/Blog.png" alt="blog" class="events_item-img two">
                         <div class="events_item-text">Our blog</div>
                         <div class="events_item-btn"><a href="#">More</a></div>
                     </div>
-                    <div class="events_item animate__animated animate__fadeInUp wow" data-wow-duration="1s" data-wow-delay="0.5s">
-                        <div class="events_item-title">Event</div>
+                    <div class="events_item text animate__animated animate__fadeInUp wow" data-wow-duration="1s" data-wow-delay="0.5s">
+                        <div class="events_item-title">Events</div>
                         <div class="events_item-subtext">There are regular events in our pizzeria that will allow you to eat delicious food for a lower price!</div>
                     </div>
                     <div class="events_item animate__animated animate__fadeInLeft wow" data-wow-duration="1s" data-wow-delay="0.5s">
-                        <img src="img/events/Price.png" alt="price" class="events_item-img">
+                        <img src="img/events/Price.png" alt="price" class="events_item-img three">
                         <div class="events_item-text">Two pizza for 1 price</div>
                         <div class="events_item-btn"><a href="#">More</a></div>
                     </div>
                     <div class="events_item animate__animated animate__fadeInRight wow" data-wow-duration="1s" data-wow-delay="0.5s">
-                        <img src="img/events/Kitchen.png" alt="kitchen" class="events_item-img">
+                        <img src="img/events/Kitchen.png" alt="kitchen" class="events_item-img three">
                         <div class="events_item-text">Kitchen tour</div>
                         <div class="events_item-btn"><a href="#">More</a></div>
                     </div>
                     <div class="events_item bottom animate__animated animate__fadeInDown wow" data-wow-duration="1s" data-wow-delay="0.5s">
-                        <img src="img/events/Free.png" alt="free" class="events_item-img">
+                        <img src="img/events/Free.png" alt="free" class="events_item-img four">
                         <div class="events_item-text">Free coffee for 3 pizza</div>
                         <div class="events_item-btn"><a href="#">More</a></div>
                     </div>
                     <div class="events_item bottom animate__animated animate__fadeInDown wow" data-wow-duration="1s" data-wow-delay="0.5s">
-                        <img src="img/events/Our.png" alt="instagram" class="events_item-img">
+                        <img src="img/events/Our.png" alt="instagram" class="events_item-img four">
                         <div class="events_item-text">Our instagram</div>
                         <div class="events_item-btn"><a href="#">More</a></div>
                     </div>
                     <div class="events_item bottom animate__animated animate__fadeInDown wow" data-wow-duration="1s" data-wow-delay="0.5s">
-                        <img src="img/events/Choose.png" alt="choose" class="events_item-img">
+                        <img src="img/events/Choose.png" alt="choose" class="events_item-img four">
                         <div class="events_item-text">Where are you choose us?</div>
                         <div class="events_item-btn"><a href="#">More</a></div>
                     </div>
@@ -375,42 +394,44 @@
         <div class="container">
             <div class="row">
                 <div class="pizzashop animate__animated animate__fadeInUp wow" data-wow-duration="1s" data-wow-delay="0.5s">pizzashop</div>
-    
-                <div class="column move animate__animated animate__fadeInUp wow" data-wow-duration="1s" data-wow-delay="0.9s">
-                    <div class="column_title">Home</div>
-                    <ul class="column_ul">
-                        <li><a href="#order" class="column_ul-li">To Order</a></li>
-                        <li><a href="#about" class="column_ul-li">About us</a></li>
-                        <li><a href="#events" class="column_ul-li">Events</a></li>
-                        <li><a href="#menu" class="column_ul-li">Menu</a></li>
-                    </ul>
-                </div>
-    
-                <div class="column move animate__animated animate__fadeInUp wow" data-wow-duration="1s" data-wow-delay="1.3s">
-                    <div class="column_title">Events</div>
-                    <ul class="column_ul">
-                        <li><a href="#" class="column_ul-li">3 Pizza 1 Free Coffee</a></li>
-                        <li><a href="#" class="column_ul-li">2 Pizza for 1 Price</a></li>
-                        <li><a href="#" class="column_ul-li">Kitchen Tour</a></li>
-                    </ul>
-                </div>
-    
-                <div class="column move animate__animated animate__fadeInUp wow" data-wow-duration="1s" data-wow-delay="1.7s">
-                    <div class="column_title">Menu</div>
-                    <ul class="column_ul">
-                        <li><a href="#" class="column_ul-li">Show All</a></li>
-                        <li><a href="#" class="column_ul-li">Seaproducts</a></li>
-                        <li><a href="#" class="column_ul-li">Vegan</a></li>
-                        <li><a href="#" class="column_ul-li">Meat</a></li>
-                    </ul>
-                </div>
-    
-                <div class="column move animate__animated animate__fadeInUp wow" data-wow-duration="1s" data-wow-delay="2.1s">
-                    <div class="column_title">About Us</div>
-                    <ul class="column_ul">
-                        <li><a href="#" class="column_ul-li">Our History</a></li>
-                        <li><a href="#" class="column_ul-li">Why We?</a></li>
-                    </ul>
+
+                <div class="secondrow">
+                    <div class="down column move animate__animated animate__fadeInUp wow" data-wow-duration="1s" data-wow-delay="0.9s">
+                        <div class="column_title">Home</div>
+                        <ul class="column_ul">
+                            <li><a href="#order" class="column_ul-li">To Order</a></li>
+                            <li><a href="#about" class="column_ul-li">About us</a></li>
+                            <li><a href="#events" class="column_ul-li">Events</a></li>
+                            <li><a href="#menu" class="column_ul-li">Menu</a></li>
+                        </ul>
+                    </div>
+        
+                    <div class="down column move animate__animated animate__fadeInUp wow" data-wow-duration="1s" data-wow-delay="1.3s">
+                        <div class="column_title">Events</div>
+                        <ul class="column_ul">
+                            <li><a href="#" class="column_ul-li">3 Pizza 1 Free Coffee</a></li>
+                            <li><a href="#" class="column_ul-li">2 Pizza for 1 Price</a></li>
+                            <li><a href="#" class="column_ul-li">Kitchen Tour</a></li>
+                        </ul>
+                    </div>
+        
+                    <div class="column move animate__animated animate__fadeInUp wow" data-wow-duration="1s" data-wow-delay="1.7s">
+                        <div class="column_title">Menu</div>
+                        <ul class="column_ul">
+                            <li><a href="#" class="column_ul-li">Show All</a></li>
+                            <li><a href="#" class="column_ul-li">Seaproducts</a></li>
+                            <li><a href="#" class="column_ul-li">Vegan</a></li>
+                            <li><a href="#" class="column_ul-li">Meat</a></li>
+                        </ul>
+                    </div>
+        
+                    <div class="column move animate__animated animate__fadeInUp wow" data-wow-duration="1s" data-wow-delay="2.1s">
+                        <div class="column_title">About Us</div>
+                        <ul class="column_ul">
+                            <li><a href="#" class="column_ul-li">Our History</a></li>
+                            <li><a href="#" class="column_ul-li">Why We?</a></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
 

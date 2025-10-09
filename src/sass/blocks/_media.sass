@@ -1,0 +1,531 @@
+@media (max-width: 1024px)
+    .container
+        max-width: 940px
+
+    header
+        .list
+            margin-left: 50px
+            &_link
+                margin-left: 50px
+            &_small
+                margin-left: 72px
+        
+        .btn
+            margin-left: 88px
+
+    .promo
+        &_title
+            width: 483px
+            font-size: 65px
+
+        &_btns
+            &-first
+                width: 199px
+            &-text
+                padding-left: 60px
+            &-second
+                width: 209px
+            &-textyel
+                padding-left: 80px
+            &-dark
+                width: 203px
+
+        &_bigpizza
+            width: 406px
+            height: 633px
+            right: 43px
+        &_piece
+            width: 201px
+            height: 201px
+            bottom: 585px
+        &_fries
+            width: 162px
+            height: 175px
+            top: 530px
+            right: 365px
+
+        &_lineone
+            left: 400px
+        &_linetwo
+            left: 420px
+
+    .menu
+        &_tab
+            width: 170px
+            font-size: 19px
+        
+        &_content
+            flex-wrap: wrap
+        .bottomtwo
+            margin-top: 65px
+        .xtwo
+            top: 1655px
+        .down
+            top: 745px
+        .downtwo
+            top: 2175px
+
+        &_popular
+            &-img
+                width: 940px
+                height: 286px
+            &-text
+                left: 250px
+
+    .events
+        &_item
+            &-title
+                margin-top: 100px
+                font-weight: 800
+                font-size: 48px
+            &-subtext
+                width: 313px
+                font-weight: 400
+                font-size: 14px
+            &-text
+                width: 127px
+                top: 60px
+                font-weight: 500
+                font-size: 20.62px
+            &-btn
+                top: 150px
+                width: 160px
+                height: 31px
+                a
+                    margin-top: 7px
+                    margin-left: 66px
+
+        &_wrapper
+            justify-content: space-around
+            .one
+                width: 268px
+                height: 201px
+            .two
+                width: 286px
+                height: 201px
+            .three
+                width: 412px
+                height: 201px
+            .four
+                width: 289px
+                height: 201px
+        
+        &_egg
+            display: none
+        &_buritto
+            display: none
+        &_coffee
+            display: none
+
+    .about
+        margin-bottom: 110px
+        &_img
+            width: 430px
+            height: 180px
+
+        &_pizza
+            width: 467px
+            height: 441px
+            right: 29px
+        &_piece
+            width: 201px
+            height: 201px
+            bottom: 430px
+        &_fries
+            width: 162px
+            height: 176px
+            top: 370px
+            right: 400px
+
+        &_line
+            display: none
+
+    footer
+        .move
+            margin-left: 58px
+
+        .social
+            margin-left: 678px
+
+@media (max-width: 768px)
+    html
+        scrollbar-width: none
+
+    .container
+        max-width: 720px
+    
+    header
+        .list
+            position: fixed
+            flex-direction: column
+            justify-content: center
+            align-items: center
+            top: 0
+            margin-left: 0
+            left: -100%
+            width: 20%
+            height: 100vh
+            padding: 20px 15px
+            background-color: rgba(0,0,0, .8)
+            transition: 0.6s all
+            z-index: 10
+            &_small
+                display: none
+            &_item
+                margin-top: 20px
+            &_link
+                margin-left: 10px
+                font-size: 20px
+            .log
+                display: block
+            &_active
+                left: 0
+
+        .hamburger
+            display: block
+            position: absolute
+            right: 40px
+            top: 15%
+            transform: translateY(-50%)
+            width: 27px
+            height: 12px
+            span 
+                display: block 
+                height: 2px
+                width: 100%
+                background: linear-gradient(261.69deg, #FF612E 12.12%, #FFA32B 86.72%)
+                margin-bottom: 6px
+                transition: 0.5s all
+            &_active 
+                span 
+                    margin-bottom: -2px 
+                    &:nth-child(1)
+                        transform: translateY(3px) rotate(-45deg)
+                    &:nth-child(2)
+                        display: none
+                    &:nth-child(3)
+                        transform: translateY(3px) rotate(45deg)
+        
+        .btn
+            display: none
+        .buy
+            margin-left: 450px
+
+    .promo
+        &_title
+            padding-top: 750px
+            width: 538px
+            font-size: 69.17px
+
+        .media
+            display: flex
+            margin-bottom: 31px
+
+        .first
+            display: none
+
+        &_bigpizza
+            right: 170px
+        &_piece
+            bottom: 1255px
+            right: 80px
+        &_fries
+            left: 115px
+        &_lineone
+            display: none
+        &_linetwo
+            display: none
+
+    .menu
+        &_tabs
+            flex-wrap: wrap
+            justify-content: space-around
+        &_tab
+            width: 200px
+        .downward
+            margin-top: 14px
+
+        &_item
+            &-img
+                top: 295px
+        .down
+            top: 810px
+        .bottom
+            margin-top: 55px
+        .bottomtwo
+            margin-top: 55px
+        .downone
+            top: 810px
+
+        .downtwo
+            top: 2190px
+        .bottomthree
+            margin-top: 75px
+        .first
+            top: 2190px
+        .bottomfour
+            margin-top: 75px
+
+        &_popular
+            &-img
+                width: 720px
+                height: 220px
+            &-text
+                top: 95px
+                left: 135px
+
+    .events
+        &_main
+            display: block
+            margin-left: 360px
+            margin-bottom: 28px
+            &-title
+                margin-bottom: 28px
+                font-weight: 800
+                font-size: 60px
+                text-align: right
+                color: #FFFFFF
+            &-subtext
+                width: 318px
+                margin-left: 42px
+                font-weight: 400
+                font-size: 15px
+                line-height: 20px
+                text-align: right
+                color: $main-color
+        .text
+            display: none
+
+        &_wrapper
+            width: 909px
+            margin-left: 165px
+            justify-content: normal
+        &_item
+            margin-left: 14px
+
+    .about
+        &_title
+            padding-top: 575px
+        
+        &_pizza
+            right: 140px
+        &_fries
+            right: 0
+            left: 100px
+        &_piece
+            right: 35px
+            bottom: 980px
+
+    footer
+        .row
+            display: block
+        .pizzashop
+            margin-bottom: 50px
+        .move
+            margin-left: 37px
+
+        .bottom
+            margin-top: 62px
+            margin-bottom: 45px
+        .social
+            margin-left: 458px
+
+@media (max-width: 426px)
+    .container
+        max-width: 390px
+
+    header
+        .buy
+            margin-left: 120px
+    
+    .promo
+        &_title
+            width: 383px
+            padding-top: 450px
+            font-size: 48px
+            line-height: 25px
+        .thunder
+            width: 34px
+            height: 60px
+            transform: translateY(15px)
+        &_subtitle
+            width: 324px
+            margin-bottom: 32px
+            font-size: 16px
+            line-height: 25px
+
+        &_btns
+            &-first
+                width: 170px
+                height: 55px
+            &-text
+                padding-top: 18px
+                font-size: 16.01px
+            &-second
+                height: 55px
+            &-textyel
+                padding-top: 15px
+                padding-left: 90px
+                font-size: 16.01px
+            &-dark
+                height: 49px
+
+        &_bigpizza
+            width: 243px
+            height: 365px
+            right: 92px
+            border-radius: 24px
+        &_piece
+            width: 129px
+            height: 129px
+            right: 36px
+            bottom: 945px
+        &_fries
+            width: 110px
+            height: 117px
+            top: 295px
+            left: 35px
+
+    .menu
+        margin-top: 0
+        &_title
+            margin-bottom: 28px
+            font-size: 48px
+        
+        &_tabs
+            justify-content: normal
+        &_tab
+            width: 140px
+            margin-left: 10px
+            font-size: 17px
+        .meat
+            width: 80px
+        .vegetarian
+            width: 130px
+
+        &_content
+            margin-bottom: 28px
+
+        &_item
+            width: 145px
+            height: 420px
+            padding: 0 20px 0 20px
+            border-radius: 18.06px
+            background-color: #210A01
+            &-img
+                top: 270px
+                width: 180px
+                transform: translateX(-15px)
+            .down
+                top: 745px
+            .downone
+                top: 745px
+            .xtwo
+                top: 1450px
+            .first
+                top: 1945px
+            .downtwo
+                top: 1945px
+
+            &-name
+                font-size: 18.35px
+            &-descr
+                font-size: 9.35px
+                text-align: start
+
+            &-circle
+                width: 30px
+                height: 30px
+                p
+                    padding-top: 7px
+                    padding-left: 7px
+            .active
+                width: 35px
+                height: 35px
+                p
+                    padding-top: 9px
+                    padding-left: 9.5px
+
+            &-ingri
+                width: 146px
+                margin-left: 0
+                a
+                    padding-top: 7.5px
+                    padding-left: 26px
+            &-dark
+                width: 139px
+
+            &-price
+                font-size: 18.46px
+                margin-top: 4px
+                margin-left: 0
+
+            &-reduce
+                margin-left: 22px
+            &-quanity
+                margin-left: 7px
+            &-add
+                margin-left: 7px
+
+            &-btn
+                width: 145px
+                margin-left: 0
+                a
+                    padding-left: 36px
+
+        &_popular
+            margin-bottom: 82px
+            &-text
+                top: 75px
+                left: 55px
+                font-size: 26.82px
+            &-img
+                width: 390px
+                height: 175px
+
+    .events
+        height: 890px
+        &_main
+            margin-left: 30px
+        &_wrapper
+            margin-left: 85px
+
+    .about
+        &_pizza
+            width: 256px
+            height: 245px
+            right: 85px
+        &_piece
+            width: 117.45px
+            height: 117.45px
+            right: 25px
+            bottom: 680px
+        &_fries
+            width: 100.89px
+            height: 107.24px
+            top: 210px
+            left: 40px
+
+        &_title
+            padding-top: 340px
+            font-size: 48px
+        &_text
+            width: 316px
+            font-size: 14px
+        &_img
+            width: 343.88px
+            height: 150px
+
+    footer
+        .pizzashop
+            margin-bottom: 58px
+
+        .secondrow
+            flex-wrap: wrap
+        .move
+            margin-left: 3px
+        .down
+            margin-bottom: 28px
+
+        .social
+            margin-left: 128px
