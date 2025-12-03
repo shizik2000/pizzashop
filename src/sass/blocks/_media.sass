@@ -297,10 +297,25 @@
             display: none
 
         &_wrapper
-            width: 909px
+            display: none
+
+        &_scroll
+            display: flex
+            flex-wrap: wrap
+            width: 579px
             margin-left: 165px
+            margin-bottom: 75px
             justify-content: normal
+            overflow-x: auto
+            overflow-y: hidden
+            white-space: nowrap
+            scrollbar-width: none
+
+        &_scroll::-webkit-scrollbar
+            display: none
+        
         &_item
+            display: inline-block
             margin-left: 14px
 
     .about
@@ -487,10 +502,12 @@
         height: 890px
         &_main
             margin-left: 30px
-        &_wrapper
-            margin-left: 85px
+        &_scroll
+            width: 348px
+            margin-left: 60px
 
     .about
+        margin-top: 175px
         &_pizza
             width: 256px
             height: 245px
